@@ -1,0 +1,58 @@
+.footer {
+    background-color: var(--secondary-bgc-cl);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+&__wrapper {
+    display: flex;
+    align-items: baseline;
+}
+
+&__logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    margin-bottom: 20px;
+    background-color: var(--secondary-bgc-cl);
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--light-txt-cl);
+    display: block;
+}
+
+&__logo--accent {
+    color: var(--accent-txt-cl);
+}
+
+&__link {
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.71;
+
+    color: var(--grey-txt-cl);
+
+    display: block;
+
+}
+
+&__link--street-address {
+    color: inherit;
+}
+
+&__list {
+    font-style: normal;
+    line-height: 1.71;
+
+    color: var(--light-txt-cl);
+}
+
+&__item:not(:last-child) {
+    margin-bottom: 9px;
+
+}
+}

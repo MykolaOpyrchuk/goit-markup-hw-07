@@ -1,5 +1,3 @@
-# goit-markup-hw-07
-
 // utils
 @import "./utils/visually-hidden";
 @import "./utils/vars";
@@ -9,8 +7,8 @@
 @import "./base/reset";
 
 // layout
-@import "./layouts/header-nav";
 @import "./layouts/header";
+@import "./layouts/header-nav";
 @import "./layouts/header-contacts";
 @import "./layouts//hero";
 @import "./layouts/features";
@@ -20,10 +18,13 @@
 @import "./layouts/footer";
 @import "./layouts/footer-socials";
 @import "./layouts/footer-form";
-// portfolio
 @import "./layouts/portfolio-galary";
 @import "./layouts/portfolio-filter-btn";
 @import "./layouts/porfolio-card-overlay";
+
+
+
+
 
 // components
 @import "./components/primary-btn";

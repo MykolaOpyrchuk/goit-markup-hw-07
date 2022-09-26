@@ -1,0 +1,83 @@
+.team {
+    background-color: var(--team-bdc-cl);
+
+
+&__title {
+    font-family: 'Roboto';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--main-txt-cl);
+}
+
+&__list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between
+}
+
+&__card:not(:last-child) {
+    gap: 30px;
+}
+
+&__card {
+    background: #FFFFFF;
+    /* material shadow v1 */
+
+
+    padding: 30px 0;
+}
+
+&__item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+&__heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    color: var(--main-txt-cl);
+
+}
+
+&__position {
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+
+    text-align: center;
+    color: var(--grey-txt-cl);
+    margin-top: 10px;
+}
+}
+
+.socials {
+    background-color: inherit;
+
+
+&__list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+&__icon {
+    fill: currentColor;
+
+}
+
+&__link:hover,
+&__link:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--accent-bgc-cl);
+}
+}
