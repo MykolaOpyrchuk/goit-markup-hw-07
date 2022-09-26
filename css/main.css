@@ -779,19 +779,30 @@ ul {
 }
 
 .modal-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: absolute;
+  width: 30px;
+  height: 30px;
   top: 10px;
   right: 10px;
   padding: 0;
   border: none;
   cursor: pointer;
   background-color: var(--main-bcg-cl);
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .modal-btn-icon {
   fill: rgb(0, 0, 0);
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .modal-btn-icon:hover,
@@ -814,12 +825,12 @@ ul {
 .register-form-field {
   position: relative;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 100%;
 }
 
-.register-form-field:nth-child(4) {
-  margin-bottom: 20px;
+.register-form-field:nth-child(5) {
+  margin-bottom: 28px;
 }
 
 .register-form-icon {
