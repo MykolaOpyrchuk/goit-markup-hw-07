@@ -1,6 +1,10 @@
 .header {
     background-color: var(--main-bcg-cl);
     border-bottom: 1px solid #ECECEC;
+    @media screen and(max-width: 767px) {
+        display: flex;
+        align-items: center;
+    }
 
 
 

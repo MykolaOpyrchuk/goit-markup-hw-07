@@ -23,8 +23,12 @@
  }
 
  .modal {
-     width: 528px;
-     height: 581px;
+     width: 100%;
+     max-width: 450px;
+@media screen and (min-width: 768px){
+    max-width: 528px;
+    height: 581px;
+}
      background-color: rgb(255, 255, 255);
 
      position: absolute;

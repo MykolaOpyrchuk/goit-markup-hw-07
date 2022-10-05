@@ -1,6 +1,4 @@
 .nav {
-    width: 1200px;
-    padding: 0 15px;
     display: flex;
     align-items: center;
 
@@ -17,6 +15,9 @@
     justify-content: center;
     gap: 50px;
     margin-left: 93px;
+    @media screen and(max-width: 767px) {
+                display: none;
+            }
 }
 
 &__link {

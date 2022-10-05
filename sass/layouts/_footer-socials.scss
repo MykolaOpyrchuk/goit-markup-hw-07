@@ -1,8 +1,4 @@
 .footer{
-    .footer__wrapper-socials-links {
-            margin-left: 70px;
-        }
-
 
 &__heading {
     font-weight: 700;
@@ -17,6 +13,8 @@
 &__socials-list {
     display: flex;
     gap: 10px;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 
 &__socials-link {
@@ -34,5 +32,9 @@
 &__socials-link:hover,
 &__socials-link:focus {
     background-color: var(--accent-bgc-cl);
+}
+}
+.footer__wrapper-socials-links {@media screen and(min-width: 1200px) {
+    margin-left: 70px;
 }
 }
